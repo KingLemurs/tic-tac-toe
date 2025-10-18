@@ -1,8 +1,8 @@
 CMakeFiles/demo.dir/classes/Logger.cpp.o: \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Logger.cpp \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Logger.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/../imgui/imgui.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/../imgui/imconfig.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Logger.cpp \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Logger.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/../imgui/imgui.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/../imgui/imconfig.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

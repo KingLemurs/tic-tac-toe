@@ -1,9 +1,9 @@
 CMakeFiles/demo.dir/classes/Sprite.cpp.o: \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Sprite.cpp \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Sprite.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Entity.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/../imgui/imgui.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/../imgui/imconfig.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Sprite.cpp \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Sprite.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Entity.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/../imgui/imgui.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/../imgui/imconfig.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -90,7 +90,7 @@ CMakeFiles/demo.dir/classes/Sprite.cpp.o: \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/stb_image.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/stb_image.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h \
@@ -851,4 +851,4 @@ CMakeFiles/demo.dir/classes/Sprite.cpp.o: \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/../imgui/imgui_impl_opengl3_loader.h
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/../imgui/imgui_impl_opengl3_loader.h

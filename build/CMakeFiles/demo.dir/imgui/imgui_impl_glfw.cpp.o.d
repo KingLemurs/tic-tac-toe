@@ -1,7 +1,7 @@
 CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o: \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_impl_glfw.cpp \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imconfig.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/imgui/imgui_impl_glfw.cpp \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/imgui/imgui.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/imgui/imconfig.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -88,7 +88,7 @@ CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o: \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_impl_glfw.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/imgui/imgui_impl_glfw.h \
   /opt/homebrew/include/GLFW/glfw3.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \

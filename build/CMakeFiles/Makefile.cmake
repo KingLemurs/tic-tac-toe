@@ -54,7 +54,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-4.1/Modules/Platform/UnixPaths.cmake"
   "/Applications/CMake.app/Contents/share/cmake-4.1/Templates/CPackConfig.cmake.in"
   "/Applications/CMake.app/Contents/share/cmake-4.1/Templates/CTestScript.cmake.in"
-  "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/CMakeLists.txt"
+  "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe/CMakeLists.txt"
   "CMakeFiles/4.1.2/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.2/CMakeSystem.cmake"

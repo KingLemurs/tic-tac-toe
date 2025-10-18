@@ -1,11 +1,11 @@
 CMakeFiles/demo.dir/classes/Square.cpp.o: \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Square.cpp \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Square.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/BitHolder.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Sprite.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Entity.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/../imgui/imgui.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/../imgui/imconfig.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Square.cpp \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Square.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/BitHolder.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Sprite.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Entity.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/../imgui/imgui.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/../imgui/imconfig.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

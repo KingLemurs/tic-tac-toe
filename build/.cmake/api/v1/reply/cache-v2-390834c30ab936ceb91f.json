@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build"
+			"value" : "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -523,7 +523,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -595,7 +595,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main"
+			"value" : "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1695,11 +1695,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/git"
 		},
 		{
 			"name" : "HGCOMMAND",
@@ -1899,7 +1899,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build"
+			"value" : "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe/build"
 		},
 		{
 			"name" : "tictactoe_IS_TOP_LEVEL",
@@ -1923,7 +1923,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main"
+			"value" : "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe"
 		}
 	],
 	"kind" : "cache",

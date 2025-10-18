@@ -1,7 +1,7 @@
 CMakeFiles/demo.dir/classes/TicTacToe.cpp.o: \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/TicTacToe.cpp \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/TicTacToe.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Game.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/TicTacToe.cpp \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/TicTacToe.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Game.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
@@ -851,7 +851,7 @@ CMakeFiles/demo.dir/classes/TicTacToe.cpp.o: \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Player.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Player.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
@@ -880,16 +880,16 @@ CMakeFiles/demo.dir/classes/TicTacToe.cpp.o: \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Turn.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Bit.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Sprite.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Entity.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/../imgui/imgui.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/../imgui/imconfig.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Turn.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Bit.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Sprite.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Entity.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/../imgui/imgui.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/../imgui/imconfig.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode15.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/float.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/float.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/BitHolder.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Square.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Logger.h
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/BitHolder.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Square.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/classes/Logger.h

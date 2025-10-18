@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main
-BuildDirectory: /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build
+SourceDirectory: /Users/joshsgyatt/Documents/GitHub/tic-tac-toe
+BuildDirectory: /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/Applications/CMake.app/Contents/bin/cmake" "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main"
+ConfigureCommand: "/Applications/CMake.app/Contents/bin/cmake" "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe"
 MakeCommand: /Applications/CMake.app/Contents/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -45,7 +45,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: 
+GITCommand: /usr/bin/git
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -58,9 +58,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
 Compiler: /usr/bin/clang++

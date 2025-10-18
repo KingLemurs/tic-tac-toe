@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main
+CMAKE_SOURCE_DIR = /Users/joshsgyatt/Documents/GitHub/tic-tac-toe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build
+CMAKE_BINARY_DIR = /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/build
 
 # Utility rule file for Experimental.
 
@@ -85,6 +85,6 @@ CMakeFiles/Experimental.dir/clean:
 .PHONY : CMakeFiles/Experimental.dir/clean
 
 CMakeFiles/Experimental.dir/depend:
-	cd /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build/CMakeFiles/Experimental.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/joshsgyatt/Documents/GitHub/tic-tac-toe /Users/joshsgyatt/Documents/GitHub/tic-tac-toe /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/build /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/build /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/build/CMakeFiles/Experimental.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Experimental.dir/depend
 

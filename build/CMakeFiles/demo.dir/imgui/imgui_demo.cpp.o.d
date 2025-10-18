@@ -1,7 +1,7 @@
 CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o: \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_demo.cpp \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imconfig.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/imgui/imgui_demo.cpp \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/imgui/imgui.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/imgui/imconfig.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

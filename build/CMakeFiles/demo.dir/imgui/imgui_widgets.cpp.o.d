@@ -1,7 +1,7 @@
 CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o: \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_widgets.cpp \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imconfig.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/imgui/imgui_widgets.cpp \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/imgui/imgui.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/imgui/imconfig.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -88,7 +88,7 @@ CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o: \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_internal.h \
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/imgui/imgui_internal.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h \
@@ -243,4 +243,4 @@ CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o: \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
   /Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
-  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imstb_textedit.h
+  /Users/joshsgyatt/Documents/GitHub/tic-tac-toe/imgui/imstb_textedit.h

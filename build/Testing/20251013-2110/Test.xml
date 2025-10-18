@@ -6,7 +6,7 @@
 	CompilerName="/usr/bin/clang++"
 	CompilerVersion="15.0.0.15000309"
 	OSName="macOS"
-	Hostname="IPod-Touch-2001.lan"
+	Hostname="IPod-Touch-2001"
 	OSRelease="14.6.1"
 	OSVersion="23G93"
 	OSPlatform="arm64"
@@ -25,11 +25,11 @@
 	ProcessorClockFrequency="0"
 	>
 	<Testing>
-		<StartDateTime>Oct 17 23:19 PDT</StartDateTime>
-		<StartTestTime>1760768359</StartTestTime>
+		<StartDateTime>Oct 18 12:12 PDT</StartDateTime>
+		<StartTestTime>1760814741</StartTestTime>
 		<TestList/>
-		<EndDateTime>Oct 17 23:19 PDT</EndDateTime>
-		<EndTestTime>1760768359</EndTestTime>
+		<EndDateTime>Oct 18 12:12 PDT</EndDateTime>
+		<EndTestTime>1760814741</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
