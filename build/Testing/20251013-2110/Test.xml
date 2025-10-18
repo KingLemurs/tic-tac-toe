@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-clang++"
+	BuildStamp="20251013-2110-Experimental"
+	Name="IPod-Touch-2001.local"
+	Generator="ctest-4.1.2"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="15.0.0.15000309"
+	OSName="macOS"
+	Hostname="IPod-Touch-2001.lan"
+	OSRelease="14.6.1"
+	OSVersion="23G93"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M3 Max"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="16"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="65536"
+	LogicalProcessorsPerPhysical="16"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Oct 17 23:19 PDT</StartDateTime>
+		<StartTestTime>1760768359</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 17 23:19 PDT</EndDateTime>
+		<EndTestTime>1760768359</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

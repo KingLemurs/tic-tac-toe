@@ -1,0 +1,98 @@
+[
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/Application.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/Application.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/Application.cpp",
+  "output": "CMakeFiles/demo.dir/Application.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_demo.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_demo.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_draw.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_tables.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_widgets.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/imgui/imgui.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/classes/Bit.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Bit.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Bit.cpp",
+  "output": "CMakeFiles/demo.dir/classes/Bit.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/classes/BitHolder.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/BitHolder.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/BitHolder.cpp",
+  "output": "CMakeFiles/demo.dir/classes/BitHolder.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/classes/Game.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Game.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Game.cpp",
+  "output": "CMakeFiles/demo.dir/classes/Game.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/classes/Logger.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Logger.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Logger.cpp",
+  "output": "CMakeFiles/demo.dir/classes/Logger.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/classes/Sprite.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Sprite.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Sprite.cpp",
+  "output": "CMakeFiles/demo.dir/classes/Sprite.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/classes/Square.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Square.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/Square.cpp",
+  "output": "CMakeFiles/demo.dir/classes/Square.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/classes/TicTacToe.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/TicTacToe.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/classes/TicTacToe.cpp",
+  "output": "CMakeFiles/demo.dir/classes/TicTacToe.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_impl_opengl3.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/main_macos.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/main_macos.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/main_macos.cpp",
+  "output": "CMakeFiles/demo.dir/main_macos.cpp.o"
+},
+{
+  "directory": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode15.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o -c /Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_impl_glfw.cpp",
+  "file": "/Users/joshsgyatt/Documents/GitHub/tic-tac-toe-assignment-main/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o"
+}
+]
