@@ -6,7 +6,7 @@
 	CompilerName="/usr/bin/clang++"
 	CompilerVersion="15.0.0.15000309"
 	OSName="macOS"
-	Hostname="IPod-Touch-2001"
+	Hostname="IPod-Touch-2001.local"
 	OSRelease="14.6.1"
 	OSVersion="23G93"
 	OSPlatform="arm64"
@@ -19,17 +19,17 @@
 	ProcessorCacheSize="131072"
 	NumberOfLogicalCPU="16"
 	NumberOfPhysicalCPU="16"
-	TotalVirtualMemory="2048"
+	TotalVirtualMemory="3072"
 	TotalPhysicalMemory="65536"
 	LogicalProcessorsPerPhysical="16"
 	ProcessorClockFrequency="0"
 	>
 	<Testing>
-		<StartDateTime>Oct 18 12:12 PDT</StartDateTime>
-		<StartTestTime>1760814741</StartTestTime>
+		<StartDateTime>Oct 20 17:52 PDT</StartDateTime>
+		<StartTestTime>1761007974</StartTestTime>
 		<TestList/>
-		<EndDateTime>Oct 18 12:12 PDT</EndDateTime>
-		<EndTestTime>1760814741</EndTestTime>
+		<EndDateTime>Oct 20 17:52 PDT</EndDateTime>
+		<EndTestTime>1761007974</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

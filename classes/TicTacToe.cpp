@@ -27,6 +27,7 @@
 
 const int AI_PLAYER   = 1;      // index of the AI player (O)
 const int HUMAN_PLAYER= 0;      // index of the human player (X)
+const int INVERSE[] = {1, 0};
 
 TicTacToe::TicTacToe()
 {
@@ -44,7 +45,7 @@ Bit* TicTacToe::PieceForPlayer(const int playerNumber)
 {
     // depending on playerNumber load the "x.png" or the "o.png" graphic
     Bit *bit = new Bit();
-    bit->LoadTextureFromFile(playerNumber == 1 ? "x.png" : "o.png");
+    bit->LoadTextureFromFile(playerNumber == 0 ? "x.png" : "o.png");
     bit->setOwner(getPlayerAt(playerNumber));
     return bit;
 }
@@ -229,10 +230,11 @@ std::string TicTacToe::stateString() const
     for (int x = 0; x < 3; x++) {
         for (int y = 0; y < 3; y++) {
             Bit* curr = _grid[x][y].bit();
-            !curr ? out += "0" : out += std::to_string(curr->getOwner()->playerNumber());
+            !curr ? out += "0" : out += std::to_string(curr->getOwner()->playerNumber() + 1);
         }
     }
 
+    std::cout << out << std::endl;
     return out;
 }
 
@@ -270,7 +272,7 @@ void TicTacToe::setStateString(const std::string &s)
                 _grid[x][y].release();
             }
             else {
-                Bit* newBit = PieceForPlayer((s[x * 3 + y] - '0'));
+                Bit* newBit = PieceForPlayer( ((s[x * 3 + y] + - '0') - 1));
                 newBit->setPosition(x, y);
                 _grid[x][y].setBit(newBit);
             }
@@ -278,7 +280,7 @@ void TicTacToe::setStateString(const std::string &s)
     }
 }
 
-int TicTacToe::minimax(const int player, const int depth) {
+int TicTacToe::negamax(const int player, const int depth, int alpha, const int beta) {
     Player* p = checkForWinner();
     if (p) {
         // std::cout << "win " << p->playerNumber() << std::endl;
@@ -292,63 +294,32 @@ int TicTacToe::minimax(const int player, const int depth) {
         return 0;
     }
 
-    int best = 10000;
+    int best = -10000;
 
-    // human
-    if (player == 0) {
-        for (int x = 0; x < 3; x++) {
-            for (int y = 0; y < 3; y++) {
-                // if spot is open
-                if (!_grid[x][y].empty()) {
-                    continue;
-                }
-
-                Bit* piece = PieceForPlayer(player);
-                piece->setPosition(x, y);
-                getHolderAt(x,y).setBit(piece);
-
-                std::string test = "Human placed: " + std::to_string(x) + "," + std::to_string(y);
-                // Logger::GetInstance().LogGameEvent(test.c_str());
-                // simulate next move
-                best = std::min(minimax(1, depth + 1), best);
-
-                // backtrack
-                _grid[x][y].destroyBit();
-
-                if (best > 0) {
-                    return best;
-                }
+    for (int x = 0; x < 3; x++) {
+        for (int y = 0; y < 3; y++) {
+            // if spot is open
+            if (_grid[x][y].bit()) {
+                continue;
             }
-        }
-    } else {
-        best *= -1;
-        for (int x = 0; x < 3; x++) {
-            for (int y = 0; y < 3; y++) {
-                // if spot is open
-                if (!_grid[x][y].empty()) {
-                    continue;
-                }
-                
-                Bit* piece = PieceForPlayer(player);
-                piece->setPosition(x, y);
-                getHolderAt(x,y).setBit(piece);
 
-                std::string test = "AI placed: " + std::to_string(x) + "," + std::to_string(y);
-                // Logger::GetInstance().LogGameEvent(test.c_str());
+            Bit* piece = PieceForPlayer(player);
+            piece->setPosition(x, y);
+            _grid[x][y].setBit(piece);
 
-                // simulate next move
-                best = std::max(minimax(0, depth + 1), best);
+            std::string test = "placed: " + std::to_string(x) + "," + std::to_string(y);
+            // Logger::GetInstance().LogGameEvent(test.c_str());
+            // simulate next move
+            best = std::max(best, -negamax(INVERSE[player], depth + 1, -beta, -alpha));
+            alpha = std::max(alpha, best);
+            // backtrack
+            _grid[x][y].destroyBit();
 
-                // backtrack
-                _grid[x][y].destroyBit();
-
-                if (best > 0) {
-                    return best;
-                }
+            if (alpha >= beta) {
+                break;
             }
         }
     }
-
     return best;
 }
 
@@ -359,7 +330,7 @@ int TicTacToe::minimax(const int player, const int depth) {
 void TicTacToe::updateAI()
 {
     Logger::GetInstance().LogGameEvent("Starting AI turn");
-    int best = -10;
+    int best = -1000;
     ImVec2 loc;
     for (int x = 0; x < 3; x++) {
         for (int y = 0; y < 3; y++) {
@@ -369,9 +340,9 @@ void TicTacToe::updateAI()
 
             Bit* piece = PieceForPlayer(getCurrentPlayer()->playerNumber());
             piece->setPosition(x, y);
-            getHolderAt(x,y).setBit(piece);
+            _grid[x][y].setBit(piece);
 
-            int score = minimax(getCurrentPlayer()->playerNumber(), 0);
+            int score = negamax(getCurrentPlayer()->playerNumber(), 0, -10000, 10000);
             std::string test = "trying loc: " + std::to_string(x) + "," + std::to_string(y);
             Logger::GetInstance().LogGameEvent(test.c_str());
 
@@ -382,10 +353,6 @@ void TicTacToe::updateAI()
                 loc = ImVec2(x,y);
                 best = score;
                 Logger::GetInstance().LogGameEvent("New Best");
-
-                if (score > 0) {
-                    break;
-                }
             }
 
             std::cout << "six seven" << std::endl;
@@ -394,9 +361,9 @@ void TicTacToe::updateAI()
 
     // actually move
     Bit* piece = PieceForPlayer(getCurrentPlayer()->playerNumber());
-    piece->setPosition(loc);
+    piece->setPosition(0,1);
     std::cout << (int)loc.x << "," << (int)loc.y << std::endl;
-    _grid[(int)loc.x][(int)loc.y].setBit(piece);
+    getHolderAt(0,1).setBit(piece);
 
     endTurn();
 }
