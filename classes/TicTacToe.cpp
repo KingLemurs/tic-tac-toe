@@ -102,6 +102,9 @@ bool TicTacToe::actionForEmptyHolder(BitHolder *holder)
     piece->setPosition(holder->getPosition());
     holder->setBit(piece);
 
+    std::string place = "Placing at: " + std::to_string(holder->getPosition().x) + "," + std::to_string(holder->getPosition().y);
+    Logger::GetInstance().LogGameEvent(place.c_str());
+
     // 4) Return whether we actually placed a piece. true = acted, false = ignored.
     return true; // replace with true if you complete a successful placement    
 }
@@ -174,8 +177,13 @@ Player* TicTacToe::checkForWinner()
 
     for (int* win : wins) {
         // std::cout << win[0] << win[1] << win[2] << std::endl;
+        if (!ownerAt(win[0])) {
+            continue;
+        }
+
         if (ownerAt(win[0]) == ownerAt(win[1]) && ownerAt(win[1]) == ownerAt(win[2])) {
-            // Logger::GetInstance().LogGameEvent("Player " + std::to_string(ownerAt(win[0])->playerNumber()) + " Won!" );
+            std::string winText = "Player " + std::to_string(ownerAt(win[0])->playerNumber()) + " Won!";
+            // Logger::GetInstance().LogGameEvent(winText.c_str());
             return ownerAt(win[0]);
         }
     }
@@ -334,7 +342,9 @@ void TicTacToe::updateAI()
     ImVec2 loc;
     for (int x = 0; x < 3; x++) {
         for (int y = 0; y < 3; y++) {
-            if (!_grid[x][y].empty()) {
+            if (_grid[x][y].bit()) {
+                std::string hi = "Skipping:"  + std::to_string(x) + "," + std::to_string(y);
+                Logger::GetInstance().LogGameEvent(hi.c_str());
                 continue;
             }
 
@@ -361,9 +371,9 @@ void TicTacToe::updateAI()
 
     // actually move
     Bit* piece = PieceForPlayer(getCurrentPlayer()->playerNumber());
-    piece->setPosition(0,1);
+    piece->setPosition(loc);
     std::cout << (int)loc.x << "," << (int)loc.y << std::endl;
-    getHolderAt(0,1).setBit(piece);
+    getHolderAt((int)loc.x, (int)loc.y).setBit(piece);
 
     endTurn();
 }
