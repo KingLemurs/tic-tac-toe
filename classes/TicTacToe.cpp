@@ -65,6 +65,7 @@ void TicTacToe::setUpBoard()
     _gameOptions.rowX = 3;
     _gameOptions.rowY = 3;
     _gameOptions.AIMAXDepth = 9;
+    setAIPlayer(1);
     
     for (int x = 0; x < 3; x++) {
         for (int y = 0; y < 3; y++) {
