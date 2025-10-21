@@ -312,7 +312,8 @@ int TicTacToe::negamax(const int player, const int depth, int alpha, const int b
             }
 
             Bit* piece = PieceForPlayer(player);
-            piece->setPosition(x, y);
+            auto holder = getHolderAt(x,y);
+            piece->setPosition(holder.getPosition());
             _grid[x][y].setBit(piece);
 
             std::string test = "placed: " + std::to_string(x) + "," + std::to_string(y);
@@ -349,7 +350,8 @@ void TicTacToe::updateAI()
             }
 
             Bit* piece = PieceForPlayer(getCurrentPlayer()->playerNumber());
-            piece->setPosition(x, y);
+            auto holder = getHolderAt(x,y);
+            piece->setPosition(holder.getPosition());
             _grid[x][y].setBit(piece);
 
             int score = negamax(getCurrentPlayer()->playerNumber(), 0, -10000, 10000);
@@ -371,7 +373,7 @@ void TicTacToe::updateAI()
 
     // actually move
     Bit* piece = PieceForPlayer(getCurrentPlayer()->playerNumber());
-    piece->setPosition(loc);
+    piece->setPosition(getHolderAt((int)loc.x, (int)loc.y).getPosition());
     std::cout << (int)loc.x << "," << (int)loc.y << std::endl;
     getHolderAt((int)loc.x, (int)loc.y).setBit(piece);
 
