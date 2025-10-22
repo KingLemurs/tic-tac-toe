@@ -243,7 +243,6 @@ std::string TicTacToe::stateString() const
         }
     }
 
-    std::cout << out << std::endl;
     return out;
 }
 
@@ -305,31 +304,29 @@ int TicTacToe::negamax(const int player, const int depth, int alpha, const int b
 
     int best = -10000;
 
-    for (int x = 0; x < 3; x++) {
-        for (int y = 0; y < 3; y++) {
-            // if spot is open
-            if (_grid[x][y].bit()) {
-                continue;
-            }
+    for (int i = 1; i <= 9; i++) {
+        int x = i % 3;
+        int y = i / 3;
+        if (_grid[x][y].bit()) {
+            continue;
+        }
 
-            Bit* piece = PieceForPlayer(player);
-            auto holder = getHolderAt(x,y);
-            piece->setPosition(holder.getPosition());
-            _grid[x][y].setBit(piece);
+        Bit* piece = PieceForPlayer(player);
+        auto holder = getHolderAt(x,y);
+        piece->setPosition(holder.getPosition());
+        _grid[x][y].setBit(piece);
 
-            std::string test = "placed: " + std::to_string(x) + "," + std::to_string(y);
-            // Logger::GetInstance().LogGameEvent(test.c_str());
-            // simulate next move
-            best = std::max(best, -negamax(INVERSE[player], depth + 1, -beta, -alpha));
-            alpha = std::max(alpha, best);
-            // backtrack
-            _grid[x][y].destroyBit();
+        // simulate next move
+        best = std::max(best, -negamax(INVERSE[player], depth + 1, -beta, -alpha));
+        alpha = std::max(alpha, best);
+        // backtrack
+        _grid[x][y].destroyBit();
 
-            if (alpha >= beta) {
-                break;
-            }
+        if (alpha >= beta) {
+            break;
         }
     }
+
     return best;
 }
 
@@ -341,7 +338,7 @@ void TicTacToe::updateAI()
 {
     Logger::GetInstance().LogGameEvent("Starting AI turn");
     int best = -1000;
-    ImVec2 loc;
+    ImVec2 loc(-1,-1);
     for (int x = 0; x < 3; x++) {
         for (int y = 0; y < 3; y++) {
             if (_grid[x][y].bit()) {
@@ -372,11 +369,13 @@ void TicTacToe::updateAI()
         }
     }
 
-    // actually move
-    Bit* piece = PieceForPlayer(getCurrentPlayer()->playerNumber());
-    piece->setPosition(getHolderAt((int)loc.x, (int)loc.y).getPosition());
-    std::cout << (int)loc.x << "," << (int)loc.y << std::endl;
-    getHolderAt((int)loc.x, (int)loc.y).setBit(piece);
+    if (loc.x != -1) {
+        // actually move
+        Bit* piece = PieceForPlayer(getCurrentPlayer()->playerNumber());
+        piece->setPosition(getHolderAt((int)loc.x, (int)loc.y).getPosition());
+        std::cout << (int)loc.x << "," << (int)loc.y << std::endl;
+        getHolderAt((int)loc.x, (int)loc.y).setBit(piece);
+    }
 
     endTurn();
 }
